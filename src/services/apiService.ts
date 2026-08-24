@@ -508,6 +508,7 @@ export async function fetchHistorialPlaneaciones(
   url: string,
   signal?: AbortSignal
 ): Promise<HistorialPlaneacionesData> {
+  console.log("🚨 URL que está llegando al Historial:", url);
   const response = await postToAppsScript<any>(
     url,
     { action: "getHistorialPlaneaciones" },
