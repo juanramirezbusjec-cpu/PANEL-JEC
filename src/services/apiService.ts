@@ -58,7 +58,7 @@ export async function postToAppsScript<T = any>(
   url: string,
   payload: AppsScriptPayload,
   signal?: AbortSignal,
-  timeoutMs: number = 120000
+  timeoutMs: number = 360000
 ): Promise<T> {
   if (!url || !url.startsWith("https://script.google.com/")) {
     throw new Error("URL de Google Apps Script inválida o vacía. Debe comenzar con https://script.google.com/");
