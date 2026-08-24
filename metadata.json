@@ -1,0 +1,6 @@
+{
+  "name": "Consolidador y Reportes Educativos",
+  "description": "Dashboard interno de gestión para el programa educativo, permitiendo generar reportes y consolidaciones de asistencia, planeaciones, refrigerios y docentes a partir de Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
